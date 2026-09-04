@@ -33,3 +33,9 @@ This is an educational prototype. Before official departmental use, confirm loca
 ## Adding more cases
 Edit `assets/app.js`. Cases are stored in the `cases` array at the top of the file.
 Copy an existing case object and change the image URL, answer options and teaching content.
+
+
+## 15-case update
+Added scaphoid, Smith's, boxer's, clavicle, supracondylar, neck of femur, tibial plateau, patellar, Maisonneuve and Jones fracture cases.
+
+To update your existing GitHub Pages site, replace `index.html`, `assets/styles.css` and `assets/app.js`, then commit the changes. GitHub Pages should redeploy automatically.
