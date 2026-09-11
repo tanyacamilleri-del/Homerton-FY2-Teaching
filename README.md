@@ -1,41 +1,37 @@
-# Homerton ED FY2 X-ray Teaching — GitHub Pages
+# Homerton ED FY2 Image & ECG Challenge — v4
 
-This folder is ready to publish as a static GitHub Pages website.
+Case-based FY2 Emergency Department teaching site. Each question now starts with a short clinical vignette, followed by the image/ECG, an MCQ and concise ED teaching points.
 
-## How to publish
-1. Sign in to GitHub.
-2. Create a new repository, e.g. `homerton-fy2-xray-teaching`.
-3. Upload everything in this folder, keeping the `assets` folder intact.
-4. Commit the files to the `main` branch.
-5. Open **Settings → Pages**.
-6. Under **Build and deployment**, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/ (root)`
-7. Click **Save**.
-8. GitHub will then display the public website address.
+## Image handling
+Images use Wikimedia Commons `Special:FilePath` links rather than fragile preview/redirect URLs. If an external image is temporarily unavailable, the site displays a clear fallback with a direct source link instead of a broken-image icon.
 
-## Included
-- Homepage
-- Topic navigation
-- Case library
-- Five real radiograph MCQ cases
-- Instant feedback
-- Teaching points after answering
-- Results page
-- About / image credits page
-- Mobile-responsive design
+# Homerton ED FY2 Image & ECG Challenge
 
-## Important
-The radiographs are loaded from Wikimedia Commons, so the site needs internet access.
-This is an educational prototype. Before official departmental use, confirm local governance, branding and clinical content requirements.
+A mobile-friendly GitHub Pages teaching site for Foundation Year 2 doctors in the Emergency Department.
 
-## Adding more cases
-Edit `assets/app.js`. Cases are stored in the `cases` array at the top of the file.
-Copy an existing case object and change the image URL, answer options and teaching content.
+## What's included
 
+- 27 interactive cases
+- MSK X-rays (15)
+- Chest X-rays (4)
+- Abdominal X-rays (2)
+- CT head (2)
+- ECGs (4)
+- Full mixed quiz, module quizzes, random 5-case challenge and single-case teaching mode
+- MCQ feedback, key findings, ED priorities, management pearls and 'don't miss' points
+- Image source/licence credits
 
-## 15-case update
-Added scaphoid, Smith's, boxer's, clavicle, supracondylar, neck of femur, tibial plateau, patellar, Maisonneuve and Jones fracture cases.
+## Publish on GitHub Pages
 
-To update your existing GitHub Pages site, replace `index.html`, `assets/styles.css` and `assets/app.js`, then commit the changes. GitHub Pages should redeploy automatically.
+1. Unzip the folder.
+2. Upload `index.html`, `.nojekyll`, `README.md` and the `assets` folder to the root of the existing GitHub repository.
+3. In GitHub open **Settings → Pages**.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Select the `main` branch and `/ (root)` folder, then **Save**.
+6. Allow a few minutes for the site to update.
+
+If your existing Pages site is already configured, simply replace the old files with these versions and commit the changes.
+
+## Clinical note
+
+This is an educational resource, not a clinical decision-support system. Current Homerton/Barts pathways, formal radiology reporting and senior/specialty advice take precedence.
